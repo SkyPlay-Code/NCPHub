@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light gray background */
+    text-align: center; /* center the content */
+  }
+  
+  h1 {
+    color: #333; /* dark gray text */
+    margin-bottom: 20px; /* add some space between the title and the image */
+  }
+  
+  img {
+    width: 80%; /* make the image 80% of the parent width */
+    height: auto; /* maintain the aspect ratio */
+    border: 1px solid #ddd; /* add a light gray border */
+    border-radius: 10px; /* add a slight rounded corner */
+    margin: 20px; /* add some space around the image */
+  }
