@@ -1,19 +1,35 @@
+
+/* CSS */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('background-image.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
 }
 
-h1 {
+.hero {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    color: #333;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 nav ol {
@@ -41,6 +57,11 @@ nav a:active {
     color: #337ab7;
 }
 
+nav i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
 /* Responsive design */
 
 @media (max-width: 768px) {
@@ -55,7 +76,7 @@ nav a:active {
 }
 
 @media (max-width: 480px) {
-    h1 {
+    .hero h1 {
         font-size: 24px;
     }
 
